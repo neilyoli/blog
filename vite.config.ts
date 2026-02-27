@@ -5,7 +5,7 @@ import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import Markdown from 'vite-plugin-vue-markdown'
+import Markdown from 'unplugin-vue-markdown/vite'
 import Unocss from 'unocss/vite'
 import generateSitemap from 'vite-ssg-sitemap'
 import {

@@ -1,7 +1,7 @@
 export const hostname = 'https://blog.koodar.net'
-export const title = 'lYuanC Blog'
+export const title = 'Neilyo Blog'
 export const description = 'Just infected with a disease called curiosity.'
-export const author = 'lYuanC'
+export const author = 'Neilyo'
 
 export const themeLight = '#ffffff'
 export const themeDark = '#374151'

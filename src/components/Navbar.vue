@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { isClient, toggleDark } from '~/utils'
-import avatar from '/avatar.png'
+import avatar from '/avatar.webp'
 
 const route = useRoute()
 function isActive(key: string) {

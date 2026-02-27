@@ -107,7 +107,7 @@ export default defineConfig({
 ```markdown
 <div flex justify-between items-end>
   <div text-2xl sm:text-4xl font-bold>
-    <div>Hi, I'm <span text-c-dark>lYuanC</span>👋。</div>
+    <div>Hi, I'm <span text-c-dark>Neilyo</span>👋。</div>
     <div flex>Java <Developer ml-3 /></div>
     <Links :links="frontmatter.socials" mt-5/>
   </div>
@@ -115,13 +115,13 @@ export default defineConfig({
     class="p-1 mb-1 border border-c rounded-full hidden md:block"
     shadow="[inset_0_0_10px_#000000] slate-200 dark:slate-800"
   >
-    <FlipImage class="!w-40" src="/avatar.png" alt="avatar" />
+    <FlipImage class="!w-40" src="/avatar.webp" alt="avatar" />
   </div>
 </div>
 
 ## 关于我
 
-- 🥰 我叫 lYuanC 🧑🏻‍💻.
+- 🥰 我叫 Neilyo 🧑🏻‍💻.
 
 - 👾 普通码农，`Java` crud boy.
 

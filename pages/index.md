@@ -15,7 +15,7 @@ socials:
 
 <div flex justify-between items-end>
   <div text-2xl sm:text-4xl font-bold>
-    <div>Hi, I'm <span text-c-dark>lYuanC</span>👋。</div>
+    <div>Hi, I'm <span text-c-dark>Neilyo</span>👋。</div>
     <div flex>Java <Developer ml-3 /></div>
     <Links :links="frontmatter.socials" mt-5/>
   </div>
@@ -23,7 +23,7 @@ socials:
     class="p-1 mb-1 border border-c rounded-full hidden md:block"
     shadow="[inset_0_0_10px_#000000] slate-200 dark:slate-800"
   >
-    <FlipImage class="!w-40" src="/avatar.png" alt="avatar" />
+    <FlipImage class="!w-40" src="/avatar.webp" alt="avatar" />
   </div>
 </div>
 
@@ -34,7 +34,7 @@ socials:
     <img rounded-md w-160px src="/images/home/hello.png" alt="hello">
   </div>
   <p col-span-3>
-    你好，我是<span text-c-dark>lYuanC</span>，一个Java开发工程师，目前在长沙工作。<br/><br/>
+    你好，我是<span text-c-dark>Neilyo</span>，一个Java开发工程师，目前在长沙工作。<br/><br/>
     在这里，我将我的想法，欢迎大家浏览。
   </p>
 </div>
@@ -43,7 +43,7 @@ socials:
 
 ## 关于我
 
-- 🥰 我叫 lYuanC 🧑🏻‍💻.
+- 🥰 我叫 Neilyo 🧑🏻‍💻.
 
 - 👾 普通码农，`Java` crud boy.
 
@@ -57,10 +57,10 @@ socials:
 
 <div grid="~ cols-[max-content_1fr] gap-1" border-c-dark border-1 p-3 rounded-md>
   <div text-right pr2 op50 font-bold>名字</div>
-  <TextCopy>lYuanC</TextCopy>
+  <TextCopy>Neilyo</TextCopy>
 
   <div text-right pr2 op50 font-bold>头像</div>
-  <div><a href="https://koodar.net/avatar.png" target="_blank">https://blog.koodar.net/avatar.png</a></div>
+  <div><a href="https://koodar.net/avatar.webp" target="_blank">https://blog.koodar.net/avatar.webp</a></div>
 
   <div text-right pr2 op50 font-bold>描述</div>
   <TextCopy>普通码农一个，没什么好说的</TextCopy>
@@ -72,7 +72,7 @@ socials:
   <TextCopy><a href="https://blog.koodar.net" target="_blank">blog.koodar.net</a></TextCopy>
 
   <div text-right pr2 op50 font-bold>GitHub</div>
-  <TextCopy><a href="https://github.com/ikoodar" target="_blank">@lYuanC</a></TextCopy>
+  <TextCopy><a href="https://github.com/neilyoli" target="_blank">@Neilyo</a></TextCopy>
 </div>
 
 

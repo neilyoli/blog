@@ -1,7 +1,7 @@
 ---
 socials:
   - icon: i-eva:github-outline
-    link: https://github.com/ikoodar
+    link: https://github.com/neilyoli
   - icon: i-ri:twitter-fill
     link: https://gitee.com/lycnihao
     alias: 'twitter'
@@ -31,15 +31,13 @@ socials:
 
 <div grid="~ cols-4" gap-3 lt-md:grid-cols-3>
   <div lt-md:hidden flex justify-center items-center col-span-1>
-    <img rounded-md w-160px src="/images/home/hello.png" alt="hello">
+    <!-- <img rounded-md w-160px src="/images/home/hello.png" alt="hello"> -->
   </div>
   <p col-span-3>
     你好，我是<span text-c-dark>Neilyo</span>，一个Java开发工程师，目前在长沙工作。<br/><br/>
     在这里，我将我的想法，欢迎大家浏览。
   </p>
 </div>
-
-![](/images/home/bg.jpg)
 
 ## 关于我
 

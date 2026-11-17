@@ -1,5 +1,10 @@
 <script setup lang="ts">
+import type { BlogType } from '../../shared'
 import { formatDate } from '~/utils'
+
+const props = defineProps<{
+  limit?: number
+}>()
 
 const router = useRouter()
 const path = computed<string>(() => router.currentRoute.value.path)
@@ -10,7 +15,22 @@ const tag = computed(() => {
   return tagName
 })
 
-const { yearToBlog } = useBlog(tag)
+const { blogs } = useBlog(tag)
+const visibleBlogs = computed(() =>
+  props.limit && props.limit > 0
+    ? blogs.value.slice(0, props.limit)
+    : blogs.value,
+)
+const yearToBlog = computed<Record<string, BlogType[]>>(() => {
+  const map: Record<string, BlogType[]> = {}
+
+  for (const blog of visibleBlogs.value) {
+    const year = blog.date.substring(0, 4)
+    map[year] ? map[year].push(blog) : (map[year] = [blog])
+  }
+
+  return map
+})
 const years = computed(() =>
   Object.keys(yearToBlog.value).sort((a, b) => b.localeCompare(a)),
 )

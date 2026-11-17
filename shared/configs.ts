@@ -1,4 +1,4 @@
-export const hostname = 'https://blog.koodar.net'
+export const hostname = 'https://blog.tomeet.cn'
 export const title = 'Neilyo Blog'
 export const description = 'Just infected with a disease called curiosity.'
 export const author = 'Neilyo'
@@ -13,15 +13,17 @@ export const shikiTheme = {
 export const lastUpdatedText = '最后更新于:'
 export const editLink = {
   pattern:
-    'https://github.com/ikoodar/blog/edit/master/pages:path',
+    'https://github.com/neilyoli/blog/edit/master/pages:path',
   text: '在 GitHub 中修改此页',
 }
 
+// Enable only after configuring GitHub Discussions and the repository IDs from giscus.app.
 export const giscus = {
-  repo: 'ikoodar/blog',
-  repoId: 'R_kgDOMED7kQ',
-  category: 'Announcements',
-  categoryId: 'DIC_kwDOMED7kc4Cf174',
+  enabled: false,
+  repo: 'neilyoli/blog',
+  repoId: '',
+  category: '',
+  categoryId: '',
   light: 'light',
   dark: `${hostname}/css/giscus-dark.css`,
 }

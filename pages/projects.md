@@ -1,21 +1,11 @@
 ---
 title: Projects - Neilyo
-projects:
-  Java:
-    - name: Fantasy
-      link: https://koodar.net/
-      desc: Fantasy - 正在思考中的一个web项目
-      icon: i-akar-icons-game-controller
-      tech:
-        - i-logos-java
-        - i-logos-spring-icon
-        - i-logos:vue
-        - i-logos:typescript-icon
-      repo: lycnihao/Fantasy
 ---
 
-# Projects · 我的一些作品 
+# Selected Projects
 
-I'm trying to find a balance between working and studying (っ °Д °;)っ.
+这里记录我正在构建和参与的项目，覆盖 Agent 工程底座、AI 产品实践和企业业务自动化。
 
-<ListProjects :projects="frontmatter.projects"/>
+项目介绍以实际解决的问题和工程实践为主。部分项目仓库为私有项目，公开代码入口会直接标注。
+
+<ProjectGrid />

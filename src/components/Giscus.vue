@@ -35,18 +35,18 @@ function updateGiscus() {
     'https://giscus.app',
   )
 }
-if (isClient) {
+if (isClient && giscus.enabled) {
   const scriptElement = ref<HTMLScriptElement>(getScriptElement())
   onMounted(() => {
     document.head.appendChild(scriptElement.value)
   })
   onBeforeUnmount(() => {
-    document.head.removeChild(scriptElement.value)
+    scriptElement.value.remove()
   })
   watch(theme, updateGiscus)
 }
 </script>
 
 <template>
-  <div class="giscus" />
+  <div v-if="giscus.enabled" class="giscus" />
 </template>

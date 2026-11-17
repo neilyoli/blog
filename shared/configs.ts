@@ -1,6 +1,6 @@
 export const hostname = 'https://blog.tomeet.cn'
-export const title = 'Neilyo Blog'
-export const description = 'Just infected with a disease called curiosity.'
+export const title = 'Neilyo | Full-stack Engineer'
+export const description = 'Neilyo 的个人主页，记录全栈开发、Java 工程实践、AI Engineering 与真实项目。'
 export const author = 'Neilyo'
 
 export const themeLight = '#ffffff'

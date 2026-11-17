@@ -20,19 +20,19 @@ socials:
   <section class="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_200px] gap-8 md:gap-12 items-center py-8 md:py-12">
     <div>
       <p class="text-xs font-semibold tracking-[0.18em] text-c-lighter mb-4">
-        FULL-STACK ENGINEER
+        AI FDE · FULL-STACK ENGINEER
       </p>
       <h1 class="m-0 text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-c-dark">
         Hi, I'm <span class="text-brand">Neilyo</span>.
       </h1>
       <p class="mt-3 text-lg sm:text-xl font-semibold text-c-dark">
-        Full-stack Engineer
+        AI FDE · Full-stack Engineer
       </p>
       <p class="mt-5 text-xl sm:text-2xl leading-relaxed tracking-tight text-c-dark">
-        从后端到前端，把想法做成能用的软件。
+        从业务问题出发，把 AI 做进实际工作。
       </p>
       <p class="mt-4 max-w-2xl text-base leading-8 text-c-light">
-        平时主要做 Java 后端，也做 React、Vue 和 TypeScript 前端。我喜欢把一个功能从需求、开发一直做到上线。最近也在尝试把大模型和 Agent 用到实际项目里。
+        我主要使用 Java 做后端，也熟悉 React、Vue 和 TypeScript。现在正把工作重心转向 AI FDE：和业务使用者一起梳理问题，找到适合 AI 介入的环节，再把模型、Agent 和现有系统连接起来，做成能实际使用的工具。
       </p>
       <div class="mt-6 flex flex-wrap gap-3">
         <a href="/projects" class="btn px-4 py-2.5">
@@ -54,7 +54,7 @@ socials:
         class="no-zoom h-40 w-40 sm:h-48 sm:w-48 rounded-full border border-c object-cover shadow-sm"
       >
       <p class="text-xs tracking-[0.16em] uppercase text-c-lighter">
-        Code · Build · Learn
+        Understand · Build · Deliver
       </p>
     </div>
   </section>
@@ -62,60 +62,66 @@ socials:
 
 ## About Me
 
-你好，我是 Neilyo，一名全栈工程师，主要做 Java 后端开发，也负责 React、Vue、TypeScript 等前端工作。
+你好，我是 Neilyo。之前主要做 Java 后端和全栈项目，也参与前端开发、系统集成和产品交付。
 
-比起只负责一个接口或页面，我更喜欢把一个功能完整地做出来：先弄清楚需求，再设计接口和数据结构，接着完成前后端开发、联调和部署。上线之后，也会根据实际使用情况继续调整。
+相比拿到需求就开始写代码，我更愿意先弄清楚实际工作是怎么进行的：谁在使用、流程卡在哪里、哪些事情重复又耗时，再判断技术能不能帮上忙。
 
-最近我在做一些 AI 相关的项目，关注大模型、Agent 和 MCP 在实际开发中的用法，也会记录 AI 辅助编程时遇到的问题和经验。
+最近我把更多精力放在 AI 应用上，尝试把大模型、Agent 和 MCP 接入实际业务。对我来说，AI FDE 不只是做一个能对话的 Demo，还要把需求、数据、现有系统和使用流程一起考虑，让做出来的东西真正有人用。
 
-## What I Work On
+## What I Do
 
 <div class="not-prose grid grid-cols-1 sm:grid-cols-3 gap-3 my-5">
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-logos-java text-xl" />
-      Backend
+      <span class="i-carbon-chat text-xl" />
+      Understand
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      Java、Spring Boot、数据库设计和 API 开发。
+      和业务使用者梳理工作流程、实际问题和预期结果，先确定什么值得解决。
     </p>
   </article>
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-logos-react text-xl" />
-      Frontend
+      <span class="i-carbon-flow text-xl" />
+      Design
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      React、Vue、TypeScript、页面交互和前后端联调。
+      结合现有系统和数据，选择合适的模型、Agent、MCP 或自动化方案，并先做验证。
     </p>
   </article>
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-carbon-ai text-xl" />
-      AI Applications
+      <span class="i-carbon-application-web text-xl" />
+      Build & Deliver
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      大模型接入、Agent、MCP，以及 AI 辅助编程。
+      用 Java 和现代 Web 技术完成开发、系统集成与部署，再根据实际反馈继续调整。
     </p>
   </article>
 </div>
 
+## Technical Background
+
+日常开发主要使用 Java、Spring Boot，也使用 React、Vue 和 TypeScript 构建 Web 应用。AI 相关工作会接触大模型、Agent、MCP、工具调用和知识库等能力。
+
+我更关注这些技术怎么配合起来解决问题，而不是单独追逐某个框架或模型。
+
 ## Selected Projects
 
-这里放了三个我正在投入的项目，分别涉及 Agent 开发、AI 产品和会议任务管理。部分项目代码暂未公开，我会在项目卡片中注明。
+这些项目是我近期投入较多的实践，分别涉及 Agent 底座、AI 产品和企业会议任务管理。部分项目代码暂未公开，我会在项目卡片中注明。
 
 <ProjectGrid />
 
 ## How I Work
 
-- **先把需求弄清楚：** 明确要解决什么问题，再开始设计和编码。
-- **尽量把事情做完整：** 不只完成单个接口或页面，也关注联调、部署和后续维护。
-- **代码保持简单：** 能用现有能力解决的问题，不重复造轮子。
-- **把 AI 用在合适的地方：** 让它帮忙处理重复工作，关键设计和结果仍然认真检查。
+- **先到实际场景里了解问题：** 和使用者确认现状、卡点和真正想要的结果。
+- **先验证，再扩大范围：** 用小的原型或实际流程验证方案，不急着堆功能。
+- **考虑完整使用过程：** 数据从哪里来、工具能做什么、权限如何控制、出错后怎么办，都要提前想清楚。
+- **上线后继续跟进：** 看实际使用情况，听反馈，再决定怎么改。
 
 ## Writing & Notes
 
-平时会把开发中遇到的问题、项目里的技术选择，以及对 AI 编程和 Agent 的一些尝试整理成文章。
+这里记录项目开发中的技术选择、踩过的坑，以及我对 AI 应用和工程实践的思考。
 
 <ListPosts :limit="3" />
 

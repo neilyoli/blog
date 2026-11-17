@@ -21,6 +21,7 @@ declare module 'vue' {
     Navbar: typeof import('./components/Navbar.vue')['default']
     Nutshell: typeof import('./components/Nutshell.vue')['default']
     Project: typeof import('./components/Project.vue')['default']
+    ProjectGrid: typeof import('./components/ProjectGrid.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SearchComp: typeof import('./components/SearchComp.vue')['default']

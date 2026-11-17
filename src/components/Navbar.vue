@@ -58,7 +58,7 @@ const { y: scroll } = useWindowScroll()
     <router-link to="/" font-bold un-text="c hover:c-dark" flex items-center>
       <img rounded-md w-40px h-40px class="mask mask-squircle" :src="avatar" alt="avatar">
       <div i-fa6-solid:angle-right class="prompt inline-block mx-2 lt-sm:hidden" />
-      <span text-xl font-bold mt-1 lt-sm:hidden>Hi@Everyone</span>
+      <span text-xl font-bold mt-1 lt-sm:hidden>Neilyo</span>
       <span class="blink text-xl mt-1 lt-sm:hidden">_</span>
     </router-link>
     <nav flex space-x-4>

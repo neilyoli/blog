@@ -20,7 +20,7 @@ socials:
   <section class="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_200px] gap-8 md:gap-12 items-center py-8 md:py-12">
     <div>
       <p class="text-xs font-semibold tracking-[0.18em] text-c-lighter mb-4">
-        FULL-STACK ENGINEER · SOFTWARE BUILDER
+        FULL-STACK ENGINEER
       </p>
       <h1 class="m-0 text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-c-dark">
         Hi, I'm <span class="text-brand">Neilyo</span>.
@@ -29,10 +29,10 @@ socials:
         Full-stack Engineer
       </p>
       <p class="mt-5 text-xl sm:text-2xl leading-relaxed tracking-tight text-c-dark">
-        Building software from backend to frontend.
+        从后端到前端，把想法做成能用的软件。
       </p>
       <p class="mt-4 max-w-2xl text-base leading-8 text-c-light">
-        拥有 7 年软件开发经验，以 Java 后端开发为主，同时参与 React、Vue 与 TypeScript 驱动的现代 Web 应用开发。近期持续投入 AI 工程实践，探索如何将 Agent、MCP 与自动化能力融入真实产品。
+        平时主要做 Java 后端，也做 React、Vue 和 TypeScript 前端。我喜欢把一个功能从需求、开发一直做到上线。最近也在尝试把大模型和 Agent 用到实际项目里。
       </p>
       <div class="mt-6 flex flex-wrap gap-3">
         <a href="/projects" class="btn px-4 py-2.5">
@@ -62,60 +62,60 @@ socials:
 
 ## About Me
 
-我是一名拥有 7 年软件开发经验的全栈工程师，主要使用 Java、Spring Boot 构建后端系统，也参与现代 Web 应用的设计与实现。
+你好，我是 Neilyo，一名全栈工程师，主要做 Java 后端开发，也负责 React、Vue、TypeScript 等前端工作。
 
-我习惯从完整产品的角度思考问题：先理解业务目标和约束，再梳理模块边界、数据流与接口契约，最后推进前后端实现、部署和持续迭代。比起堆砌技术名词，我更在意软件是否真正解决问题，是否可靠、易于维护，并能随着需求变化持续演进。
+比起只负责一个接口或页面，我更喜欢把一个功能完整地做出来：先弄清楚需求，再设计接口和数据结构，接着完成前后端开发、联调和部署。上线之后，也会根据实际使用情况继续调整。
 
-在 AI 方向，我持续实践大模型应用、Agent Runtime、MCP 与 AI Coding，关注如何把模型能力接入现有系统和真实业务，而不是停留在概念 Demo。
+最近我在做一些 AI 相关的项目，关注大模型、Agent 和 MCP 在实际开发中的用法，也会记录 AI 辅助编程时遇到的问题和经验。
 
-## What I Build
+## What I Work On
 
 <div class="not-prose grid grid-cols-1 sm:grid-cols-3 gap-3 my-5">
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
       <span class="i-logos-java text-xl" />
-      Backend Engineering
+      Backend
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      Java、Spring Boot、API 设计、数据建模与企业级后端系统。
+      Java、Spring Boot、数据库设计和 API 开发。
     </p>
   </article>
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
       <span class="i-logos-react text-xl" />
-      Frontend Engineering
+      Frontend
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      React、Vue、TypeScript、组件化开发与现代 Web 交互体验。
+      React、Vue、TypeScript、页面交互和前后端联调。
     </p>
   </article>
   <article class="rounded-xl border border-c p-5 bg-c">
     <div class="flex items-center gap-2 text-c-dark font-semibold">
       <span class="i-carbon-ai text-xl" />
-      AI Engineering
+      AI Applications
     </div>
     <p class="mt-3 text-sm leading-6 text-c-light">
-      LLM 应用、Agent、MCP、Skills 与 AI Coding 工程实践。
+      大模型接入、Agent、MCP，以及 AI 辅助编程。
     </p>
   </article>
 </div>
 
 ## Selected Projects
 
-围绕工程底座、AI 产品和企业业务场景持续实践。部分项目仓库为私有项目，公开代码入口会单独标注。
+这里放了三个我正在投入的项目，分别涉及 Agent 开发、AI 产品和会议任务管理。部分项目代码暂未公开，我会在项目卡片中注明。
 
 <ProjectGrid />
 
-## Engineering Approach
+## How I Work
 
-- **从问题出发：** 先弄清楚业务目标、使用场景和约束，再决定技术方案。
-- **控制复杂度：** 重视模块边界、接口契约和清晰的分层设计。
-- **关注交付质量：** 不止让功能跑起来，也关注部署、维护和后续演进。
-- **合理使用 AI：** 让 AI 承担高重复度工作，把架构判断、业务决策和质量把关留在人手里。
+- **先把需求弄清楚：** 明确要解决什么问题，再开始设计和编码。
+- **尽量把事情做完整：** 不只完成单个接口或页面，也关注联调、部署和后续维护。
+- **代码保持简单：** 能用现有能力解决的问题，不重复造轮子。
+- **把 AI 用在合适的地方：** 让它帮忙处理重复工作，关键设计和结果仍然认真检查。
 
 ## Writing & Notes
 
-记录全栈开发、Java 工程实践、Agent 架构与 AI Coding 过程中的经验和思考。
+平时会把开发中遇到的问题、项目里的技术选择，以及对 AI 编程和 Agent 的一些尝试整理成文章。
 
 <ListPosts :limit="3" />
 
@@ -128,7 +128,7 @@ socials:
 
 ## Beyond Code
 
-工作之外，喜欢骑行、羽毛球和音乐。保持好奇，也保持生活的节奏。
+工作之外，喜欢骑行、打羽毛球和听音乐。
 
 <route lang="yaml">
 meta:

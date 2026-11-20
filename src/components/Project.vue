@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import type { ProjectItem } from '../../shared'
 
-const { item } = defineProps<{ item: ProjectItem }>()
+const { item, variant } = withDefaults(defineProps<{
+  item: ProjectItem
+  variant?: 'default' | 'featured'
+}>(), {
+  variant: 'default',
+})
 
 const star = ref<number | null>(null)
 
@@ -42,12 +47,15 @@ onMounted(async () => {
     border="1 c"
     bg-c
     class="!no-underline !text-c transition-colors"
-    :class="item.link && 'hover:bg-gray-50 dark:hover:bg-gray-600 cursor-pointer'"
+    :class="[
+      item.link && 'hover:bg-gray-50 dark:hover:bg-gray-600 cursor-pointer',
+      variant === 'featured' && 'min-h-56 sm:p-7',
+    ]"
     :title="item.name"
   >
     <div class="min-w-0 flex-1">
       <div class="flex flex-wrap items-center gap-2">
-        <span class="font-semibold text-c-dark">{{ item.name }}</span>
+        <span class="font-semibold text-c-dark" :class="variant === 'featured' && 'text-xl'">{{ item.name }}</span>
         <span
           v-if="item.status"
           class="rounded-full bg-gray-100 dark:bg-gray-600 px-2 py-0.5 text-xs text-c-light"
@@ -56,7 +64,11 @@ onMounted(async () => {
         </span>
       </div>
 
-      <div class="mt-2 flex items-center gap-2 text-sm text-c-light">
+      <p v-if="item.subtitle" class="mt-2 text-sm font-medium text-c-dark">
+        {{ item.subtitle }}
+      </p>
+
+      <div class="mt-3 flex items-center gap-2 text-sm text-c-light">
         <span
           v-for="icon of item.tech"
           :key="`${item.name}-${icon}`"
@@ -69,12 +81,12 @@ onMounted(async () => {
         </span>
       </div>
 
-      <p class="mt-3 text-sm leading-6 text-c-light">
+      <p class="mt-3 text-sm leading-6 text-c-light" :class="variant === 'featured' && 'sm:text-base sm:leading-7'">
         {{ item.desc }}
       </p>
     </div>
 
-    <div class="shrink-0 pt-1 text-2xl text-c-lighter">
+    <div class="shrink-0 pt-1 text-2xl text-c-lighter" :class="variant === 'featured' && 'sm:text-3xl'">
       <div :class="item.icon || 'i-carbon-unknown'" />
     </div>
   </component>

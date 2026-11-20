@@ -1,8 +1,15 @@
+export interface ProjectFocusArea {
+  title: string
+  description: string
+  icon: string
+}
+
 export interface ProjectItem {
   name: string
   subtitle: string
   desc: string
   details?: string[]
+  focusAreas?: ProjectFocusArea[]
   icon: string
   tech: string[]
   status: string
@@ -22,6 +29,23 @@ export const selectedProjects: ProjectItem[] = [
       '从最初研究 ReAct Agent，到后来关注 Harness、Agent Runtime 和多智能体协作，我一直在尝试构建一套适合 Java 生态的 Agent 工程体系。',
       'MagicListing 和 Meeting Agent 中积累的实践经验，也会成为 AgentKit 的一部分输入。不是简单搬运业务代码，而是把经过验证、具有通用价值的设计和能力抽象出来，逐步沉淀到工程底座中。',
       '这是一个长期项目，很多设计还会在实践中继续验证和调整。',
+    ],
+    focusAreas: [
+      {
+        title: 'Runtime',
+        description: '执行流程与生命周期',
+        icon: 'i-carbon-flow',
+      },
+      {
+        title: 'Extensions',
+        description: 'Tools 与 Skills 扩展',
+        icon: 'i-carbon-application-web',
+      },
+      {
+        title: 'Governance',
+        description: '任务、状态与运行治理',
+        icon: 'i-carbon-security',
+      },
     ],
     icon: 'i-carbon-bot',
     tech: [

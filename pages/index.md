@@ -41,8 +41,7 @@ socials:
           <span class="i-ri-arrow-right-up-line ml-1" />
         </a>
       </div>
-      <Links :links="frontmatter.socials" class="mt-5" />
-    </div>
+      </div>
 
     <div class="flex flex-col items-center justify-center gap-3 md:justify-self-end">
       <img
@@ -74,7 +73,7 @@ Java 是日常开发中的主要技术栈，前端也会自己动手。从后端
 
 ## Projects
 
-<div id="projects" />
+<div id="projects"></div>
 
 ### Things I'm Building
 

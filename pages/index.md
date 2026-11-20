@@ -25,22 +25,19 @@ socials:
       <h1 class="m-0 text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-c-dark">
         Hi, I'm <span class="text-brand">Neilyo</span>.
       </h1>
-      <p class="mt-3 text-lg sm:text-xl font-semibold text-c-dark">
-        AI FDE · Full-stack Engineer
-      </p>
-      <p class="mt-5 text-xl sm:text-2xl leading-relaxed tracking-tight text-c-dark">
-        从业务问题出发，把 AI 做进实际工作。
-      </p>
       <p class="mt-4 max-w-2xl text-base leading-8 text-c-light">
-        我主要使用 Java 做后端，也熟悉 React、Vue 和 TypeScript。现在正把工作重心转向 AI FDE：和业务使用者一起梳理问题，找到适合 AI 介入的环节，再把模型、Agent 和现有系统连接起来，做成能实际使用的工具。
+        平时写 Java，也做前端和 AI 应用。最近主要在研究 Agent 工程，也在持续做一些和 AI 有关的产品。
+      </p>
+      <p class="mt-3 max-w-2xl text-base leading-8 text-c-light">
+        这里记录我正在做的项目、技术实践，以及生活里一些有意思的片段。
       </p>
       <div class="mt-6 flex flex-wrap gap-3">
-        <a href="/projects" class="btn px-4 py-2.5">
-          Selected Projects
+        <a href="#projects" class="btn px-4 py-2.5">
+          Explore Projects
           <span class="i-ri-arrow-right-up-line ml-1" />
         </a>
-        <a href="/posts" class="btn px-4 py-2.5">
-          Writing & Notes
+        <a href="https://github.com/neilyoli" class="btn px-4 py-2.5" target="_blank" rel="noopener noreferrer">
+          GitHub
           <span class="i-ri-arrow-right-up-line ml-1" />
         </a>
       </div>
@@ -53,88 +50,61 @@ socials:
         alt="Neilyo"
         class="no-zoom h-40 w-40 sm:h-48 sm:w-48 rounded-full border border-c object-cover shadow-sm"
       >
-      <p class="text-xs tracking-[0.16em] uppercase text-c-lighter">
-        Understand · Build · Deliver
-      </p>
     </div>
   </section>
 </div>
 
 ## About Me
 
-你好，我是 Neilyo。之前主要做 Java 后端和全栈项目，也参与前端开发、系统集成和产品交付。
+### A Little About Me
 
-相比拿到需求就开始写代码，我更愿意先弄清楚实际工作是怎么进行的：谁在使用、流程卡在哪里、哪些事情重复又耗时，再判断技术能不能帮上忙。
+我叫 Neilyo，是一名软件工程师。
 
-最近我把更多精力放在 AI 应用上，尝试把大模型、Agent 和 MCP 接入实际业务。对我来说，AI FDE 不只是做一个能对话的 Demo，还要把需求、数据、现有系统和使用流程一起考虑，让做出来的东西真正有人用。
+Java 是日常开发中的主要技术栈，前端也会自己动手。从后端服务到 Web 应用，从业务系统到 AI 产品，平时接触的东西还挺杂。
 
-## What I Do
+最近投入比较多的是 AI 应用和 Agent 工程。大模型、Agent Runtime、MCP、工具调用，以及 AI Coding，都是我正在持续研究的方向。
 
-<div class="not-prose grid grid-cols-1 sm:grid-cols-3 gap-3 my-5">
-  <article class="rounded-xl border border-c p-5 bg-c">
-    <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-carbon-chat text-xl" />
-      Understand
-    </div>
-    <p class="mt-3 text-sm leading-6 text-c-light">
-      和业务使用者梳理工作流程、实际问题和预期结果，先确定什么值得解决。
-    </p>
-  </article>
-  <article class="rounded-xl border border-c p-5 bg-c">
-    <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-carbon-flow text-xl" />
-      Design
-    </div>
-    <p class="mt-3 text-sm leading-6 text-c-light">
-      结合现有系统和数据，选择合适的模型、Agent、MCP 或自动化方案，并先做验证。
-    </p>
-  </article>
-  <article class="rounded-xl border border-c p-5 bg-c">
-    <div class="flex items-center gap-2 text-c-dark font-semibold">
-      <span class="i-carbon-application-web text-xl" />
-      Build & Deliver
-    </div>
-    <p class="mt-3 text-sm leading-6 text-c-light">
-      用 Java 和现代 Web 技术完成开发、系统集成与部署，再根据实际反馈继续调整。
-    </p>
-  </article>
-</div>
+**AI 写代码越来越快，但好的规范会让项目走得更远。**
 
-## Technical Background
+这也是我最近在自己的项目中反复实践的一件事。架构设计、代码规范、能力复用和文档沉淀，看起来不像直接交付功能，却会影响一个项目能不能持续迭代。我希望在利用 AI 提高开发效率的同时，也把这些基础工作做好。
 
-日常开发主要使用 Java、Spring Boot，也使用 React、Vue 和 TypeScript 构建 Web 应用。AI 相关工作会接触大模型、Agent、MCP、工具调用和知识库等能力。
+工作之外，喜欢骑行、打羽毛球和听音乐。生活里还有不少值得花时间的事情。
 
-我更关注这些技术怎么配合起来解决问题，而不是单独追逐某个框架或模型。
+这里是我的个人空间，项目、想法和生活记录都会慢慢放进来。
 
-## Selected Projects
+## Projects
 
-这些项目是我近期投入较多的实践，分别涉及 Agent 底座、AI 产品和企业会议任务管理。部分项目代码暂未公开，我会在项目卡片中注明。
+<div id="projects" />
 
-<ProjectGrid />
+### Things I'm Building
 
-## How I Work
+目前主要在做三个项目。
 
-- **先到实际场景里了解问题：** 和使用者确认现状、卡点和真正想要的结果。
-- **先验证，再扩大范围：** 用小的原型或实际流程验证方案，不急着堆功能。
-- **考虑完整使用过程：** 数据从哪里来、工具能做什么、权限如何控制、出错后怎么办，都要提前想清楚。
-- **上线后继续跟进：** 看实际使用情况，听反馈，再决定怎么改。
+它们有不同的出发点，但并不是完全独立的。MagicListing 和 Meeting Agent 提供真实的业务场景，AgentKit 则是我长期投入的技术探索主线。
 
-## Writing & Notes
+在业务项目中遇到的问题，会成为新的研究起点；经过实践验证、具有通用价值的设计和能力，再逐步沉淀到 AgentKit。
 
-这里记录项目开发中的技术选择、踩过的坑，以及我对 AI 应用和工程实践的思考。
-
-<ListPosts :limit="3" />
-
-<div class="not-prose mt-5">
-  <a href="/posts" class="text-sm font-medium text-brand hover:underline">
-    查看全部文章
-    <span class="i-ri-arrow-right-line ml-1 align-middle" />
-  </a>
-</div>
+<ProjectGrid featured />
 
 ## Beyond Code
 
-工作之外，喜欢骑行、打羽毛球和听音乐。
+### Beyond the Screen
+
+电脑之外，也有自己的生活。
+
+喜欢骑行、打羽毛球和听音乐。天气合适的时候出去骑一段，偶尔约场球，或者找点喜欢的音乐听听。
+
+以后这里也会放一些和技术无关的记录。
+
+## Connect
+
+### Find Me Elsewhere
+
+如果你也对 AI、Agent 工程、开源项目或者软件开发感兴趣，欢迎交流。
+
+也可以在下面这些地方找到我。
+
+<Links :links="frontmatter.socials" class="mt-5" />
 
 <route lang="yaml">
 meta:

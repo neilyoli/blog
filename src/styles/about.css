@@ -1,32 +1,154 @@
-.about .prose thead {
-  @apply hidden;
+.journal {
+  --ink: #242821;
+  --muted: #545e55;
+  --accent: #975035;
+  --line: #d6dad0;
+  --paper: #f3f1e8;
+  --display: "LXGW WenKai", "Kaiti SC", KaiTi, serif;
+  width: min(100%, 62rem);
+  margin: auto;
+  color: var(--ink);
+  font-family: system-ui, sans-serif;
 }
 
-.about .prose tbody {
-  @apply w-full block;
+.dark .journal {
+  --ink: #f4f2e8;
+  --muted: #d0d6ce;
+  --accent: #ffc4a3;
+  --line: #607077;
+  --paper: #303d43;
 }
 
-.about .prose tr {
-  --uno: flex border-t border-c-dark;
+.journal-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(12rem, 15rem);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+  padding: clamp(1rem, 4vw, 3rem) 0 clamp(3rem, 7vw, 5rem);
 }
 
-.about .prose td,
-.about .prose th {
-  @apply py-2 px-0.5;
+.journal .byline, .journal time, .case-label, .author-caption span {
+  font-family: ui-monospace, "LXGW WenKai", monospace;
 }
 
-.about .prose td p {
-  @apply m-0;
+.journal .byline {
+  color: var(--muted);
+  font-size: .9rem;
+  letter-spacing: .09em;
+  margin-bottom: 1rem;
 }
 
-.about .prose td:first-child {
-  @apply flex-1;
+.journal h1, .journal h2, .journal h3, .author-caption strong {
+  font-family: var(--display);
+  font-weight: 700;
+  text-wrap: balance;
 }
 
-.about .prose td:last-child {
-  @apply text-right w-22;
+.journal h1 {
+  font-size: clamp(2.9rem, 6.2vw, 5.25rem);
+  line-height: 1.12;
+  letter-spacing: -.05em;
+  margin-bottom: 1.4rem;
 }
 
-.about p {
-  @apply text-xl;
+.journal h1 em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.journal .intro, .case-row p, .signoff p {
+  max-width: 39em;
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.journal .intro + .intro { margin-top: .5rem; }
+.hero-actions, .social-links { display: flex; flex-wrap: wrap; align-items: center; gap: 1.3rem; }
+.hero-actions { margin-top: 1.55rem; }
+
+.journal .primary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .9rem;
+  padding: .66rem 1rem;
+  border-radius: .3rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
+}
+
+.journal .text-link, .social-links a { color: var(--accent); font-weight: 600; }
+.journal a:hover { text-decoration: underline; text-underline-offset: .24em; }
+.journal a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.author-card {
+  display: block;
+  padding: .8rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: .35rem .35rem 0 var(--line);
+  transform: rotate(2deg);
+}
+
+.portrait {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1.12;
+  background-color: #f9f8f1;
+  background-image: radial-gradient(#c6c6b5 .85px, transparent .85px);
+  background-size: 8px 8px;
+}
+
+.portrait img { width: 77%; height: auto; border-radius: 50%; }
+.author-caption { display: grid; gap: .15rem; margin: .65rem .2rem 0; }
+.author-caption strong { font: italic 2rem/1 Georgia, serif; }
+.author-caption span { font-size: .78rem; color: var(--muted); }
+
+.journal-section {
+  border-top: 2px solid var(--ink);
+  padding: 1.5rem 0 2.8rem;
+  scroll-margin-top: 4.25rem;
+}
+
+.section-heading, .note-link { display: flex; align-items: baseline; gap: 1rem; }
+.section-heading { flex-wrap: wrap; justify-content: space-between; margin-bottom: 1.15rem; }
+.journal h2 { font-size: clamp(1.55rem, 3.2vw, 2.2rem); line-height: 1.3; }
+.section-heading .text-link { white-space: nowrap; }
+.section-heading .text-link, .case-row .text-link { font-size: .88rem; }
+
+.case-row {
+  display: grid;
+  grid-template-columns: minmax(8rem, 22%) 1fr;
+  gap: 1rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.case-label { display: flex; flex-direction: column; align-items: start; gap: .2rem; }
+.case-label strong { font-size: 1rem; }
+.case-label span, .note-link time { font-size: .8rem; color: var(--muted); }
+.case-row h3 { font-size: clamp(1.3rem, 2.3vw, 1.65rem); line-height: 1.45; }
+.case-row p { margin: .4rem 0; }
+.case-row:last-child { padding-bottom: 0; }
+
+.note-list { list-style: none; padding: 0; }
+.note-link { border-top: 1px solid var(--line); padding: .95rem 0; color: var(--ink); }
+.note-link time { flex-shrink: 0; }
+.note-arrow { margin-left: auto; color: var(--accent); }
+.signoff { padding-bottom: 0; }
+.signoff p { margin-top: .8rem; }
+.social-links { margin: 1.1rem 0; }
+.signoff .postscript { font-family: var(--display); }
+
+@media (max-width: 640px) {
+  .journal-hero { grid-template-columns: 1fr; gap: 1.5rem; }
+  .author-card { display: flex; gap: .65rem; align-items: center; width: fit-content; padding: .4rem .8rem .4rem .4rem; transform: none; box-shadow: none; }
+  .portrait { width: 3.3rem; }
+  .author-caption { margin: 0; }
+  .author-caption strong { font-size: 1.4rem; }
+  .case-row { grid-template-columns: 1fr; gap: .5rem; }
+  .case-label { flex-direction: row; align-items: baseline; gap: .6rem; }
+  .note-link { display: grid; grid-template-columns: 1fr auto; gap: .25rem .75rem; }
+  .note-link time { grid-column: 1 / -1; }
 }

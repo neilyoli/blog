@@ -13,10 +13,10 @@ const regularProjects = selectedProjects.filter(item => !item.featured)
 </script>
 
 <template>
-  <div class="not-prose my-5">
+  <div class="not-prose my-6">
     <template v-if="props.featured && featuredProject">
       <Project :item="featuredProject" variant="featured" />
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
         <Project
           v-for="item in regularProjects"
           :key="item.name"

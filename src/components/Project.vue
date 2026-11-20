@@ -84,6 +84,16 @@ onMounted(async () => {
       <p class="mt-3 text-sm leading-6 text-c-light" :class="variant === 'featured' && 'sm:text-base sm:leading-7'">
         {{ item.desc }}
       </p>
+
+      <div v-if="variant === 'featured' && item.details?.length" class="mt-3 space-y-3">
+        <p
+          v-for="(paragraph, index) in item.details"
+          :key="`${item.name}-detail-${index}`"
+          class="text-sm leading-7 text-c-light"
+        >
+          {{ paragraph }}
+        </p>
+      </div>
     </div>
 
     <div class="shrink-0 pt-1 text-2xl text-c-lighter" :class="variant === 'featured' && 'sm:text-3xl'">

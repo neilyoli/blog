@@ -148,7 +148,7 @@ const otherProjects = selectedProjects.filter(item => !item.featured)
 </template>
 
 <style scoped>
-.home-projects {
+.home-projects.home-section {
   grid-template-columns: 150px minmax(0, 1fr);
   padding-top: 82px;
 }
@@ -534,7 +534,7 @@ const otherProjects = selectedProjects.filter(item => !item.featured)
 }
 
 @media (max-width: 900px) {
-  .home-projects {
+  .home-projects.home-section {
     grid-template-columns: 120px minmax(0, 1fr);
   }
 
@@ -564,7 +564,7 @@ const otherProjects = selectedProjects.filter(item => !item.featured)
 }
 
 @media (max-width: 640px) {
-  .home-projects {
+  .home-projects.home-section {
     grid-template-columns: 1fr;
     padding-top: 54px;
   }

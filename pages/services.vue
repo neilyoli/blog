@@ -29,7 +29,7 @@ async function copyWechat() {
           <span aria-hidden="true" /> FDE · 前置型工程师
         </p>
         <h1 id="services-title">
-          从业务现场出发，<br><em>把问题做成工具。</em>
+          工作里遇到难题，<br><em>可以找我一起想想办法。</em>
         </h1>
         <p class="intro-text">
           我帮助企业开发贴合实际工作的工具、AI 应用和自动化流程。先弄清楚团队怎样工作，再梳理需求、开发系统、连接现有工具，并和实际使用的人一起把流程跑通。

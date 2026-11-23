@@ -181,6 +181,10 @@ const currentTopics = [
         <span class="home-section-kicker">04 / KEEP IN TOUCH</span>
         <h2 id="connect-title">Find Me<br>Elsewhere<span>.</span></h2>
         <p>如果你也对 AI、Agent 工程、开源项目或者软件开发感兴趣，欢迎交流。</p>
+        <RouterLink to="/services" class="home-action-secondary mt-4">
+          项目合作
+          <span class="i-ri-arrow-right-line" aria-hidden="true" />
+        </RouterLink>
       </div>
       <nav class="home-socials" aria-label="Social links">
         <a

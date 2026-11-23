@@ -77,6 +77,11 @@ const { y: scroll } = useWindowScroll()
         <span lt-md:hidden :class="{ active: isActive('/photos') }">Photos</span>
       </router-link>
 
+      <router-link to="/services" title="项目合作" aria-label="项目合作" nav-item>
+        <div i-ri-shake-hands-line md:hidden :class="{ 'text-c-active': isActive('/services') }" />
+        <span lt-md:hidden :class="{ active: isActive('/services') }">合作</span>
+      </router-link>
+
       <a nav-item href="/search" title="Search">
         <div i-uil:search />
       </a>

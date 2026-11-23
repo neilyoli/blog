@@ -4,7 +4,6 @@ import {
   presetIcons,
   presetTypography,
   presetUno,
-  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -59,11 +58,6 @@ export default defineConfig({
       },
     }),
     presetTypography(),
-    presetWebFonts({
-      fonts: {
-        ui: 'DM Sans:400,700',
-      },
-    }),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: 'prose prose-lg m-auto text-left'.split(' '),

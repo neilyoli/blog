@@ -6,7 +6,7 @@ useHead({
   title: '项目合作 · Neilyo',
   meta: [{
     name: 'description',
-    content: 'FDE 项目合作：企业内部工具、AI 应用与智能体、流程自动化、系统集成和数据工具开发。',
+    content: 'AI 应用、软件开发与企业数字化项目合作。关注跨境电商等业务场景，提供企业工具、智能体、流程自动化和数据应用开发。',
   }],
 })
 
@@ -26,48 +26,48 @@ async function copyWechat() {
     <header class="intro">
       <div class="intro-copy">
         <p class="eyebrow">
-          <span aria-hidden="true" /> 懂业务，也懂技术
+          <span aria-hidden="true" /> AI 应用 · 软件开发 · 企业数字化
         </p>
         <h1 id="services-title">
-          从业务现场出发，<br><em>把问题做成工具。</em>
+          AI+数字化，<br><em>改变未来</em>
         </h1>
         <p class="intro-text">
-          我帮助企业开发贴合实际工作的工具、AI 应用和自动化流程。先弄清楚团队怎样工作，再梳理需求、开发系统、连接现有工具，并和实际使用的人一起把流程跑通。
+          我一直在关注 AI 和软件技术怎样融入日常工作。面对具体需求，我会先和使用者聊聊现有流程、遇到的麻烦，再一起梳理解决思路，最后通过软件开发、AI 应用或系统集成，把想法变成团队真正用得上的工具。平时关注跨境电商，也愿意和不同领域的团队交流。
         </p>
         <p class="intro-note">
-          你不必先想好技术方案。把现在怎么做、哪里费时、希望改善什么说清楚就可以。
+          如果你有一件反复处理的工作，或一个想做却还没理清的工具，可以先和我聊聊。不用提前准备技术方案。
         </p>
         <a class="contact-link" href="#contact">
-          描述项目需求 <span class="i-ri-arrow-right-down-line" aria-hidden="true" />
+          聊聊你的想法 <span class="i-ri-arrow-right-down-line" aria-hidden="true" />
         </a>
       </div>
 
       <figure class="specimen">
         <figcaption>
-          <span>需求情境</span>
-          <span>跨境电商 · Listing 生成</span>
+          <span>一个日常工作场景</span>
+          <span>跨境电商 · Listing 创作</span>
         </figcaption>
         <div class="paper">
           <p class="paper-label">
-            团队希望解决的问题
+            运营每天要处理的事
           </p>
           <blockquote>
-            不同 SKU 的资料分散在表格里，运营需要反复整理参数、撰写文案，再逐条检查站点规则。
+            SKU 多、资料散。每次写 Listing，都要重新找参数、整理卖点，还得检查不同站点的规则。
           </blockquote>
           <div class="paper-divider">
             <p class="paper-label">
-              希望得到的工具
+              可以做成什么
             </p>
             <div class="tool-tags">
-              <span>SKU 资料导入</span>
+              <span>商品资料整理</span>
               <span>AI 文案生成</span>
-              <span>规则校验</span>
+              <span>平台规则检查</span>
               <span>人工审核</span>
             </div>
           </div>
         </div>
         <p class="specimen-note">
-          从重复的日常工作出发，做一套团队能持续使用的工具。
+          让重复工作少一点，把时间留给更需要经验和判断的事情。
         </p>
       </figure>
     </header>
@@ -75,13 +75,13 @@ async function copyWechat() {
     <section class="service-section" aria-labelledby="service-title">
       <div class="section-heading">
         <p class="eyebrow">
-          PROJECT TYPES
+          HOW I CAN HELP
         </p>
         <h2 id="service-title">
-          可以委托我做什么
+          我可以帮你做些什么
         </h2>
         <p>
-          不局限于某一种技术或产品，重点是解决实际业务中的问题。
+          下面是一些常见的合作方向，不局限于某一种行业或技术。只要有具体的问题，我们就可以一起看看怎样解决。
         </p>
       </div>
 
@@ -93,11 +93,11 @@ async function copyWechat() {
           </div>
           <h3>企业内部工具与业务系统</h3>
           <p>
-            把依赖 Excel、聊天记录和人工交接的工作，整理成符合团队流程的内部工具。
+            如果团队还在依靠多个 Excel、聊天记录和人工交接推进工作，可以把这些环节梳理清楚，做成一套更顺手的内部工具。
           </p>
           <p class="service-examples">
-            <strong>需求示例</strong>
-            运营工作台、商品资料管理、任务协作系统、内部管理平台。
+            <strong>常见需求</strong>
+            运营工作台、商品资料管理、任务协作工具、内部管理系统。
           </p>
         </article>
 
@@ -108,10 +108,10 @@ async function copyWechat() {
           </div>
           <h3>AI 应用与智能体</h3>
           <p>
-            让 AI 结合企业资料、业务数据和现有工具，承担有明确边界的查询、整理、生成和跟进工作。
+            让 AI 结合企业自己的资料、数据和系统，帮团队查询信息、整理内容、生成文案、跟进任务，而不只是停留在问答。
           </p>
           <p class="service-examples">
-            <strong>需求示例</strong>
+            <strong>常见需求</strong>
             企业知识助手、会议任务跟进、运营助手、Listing 内容生成。
           </p>
         </article>
@@ -123,10 +123,10 @@ async function copyWechat() {
           </div>
           <h3>流程自动化与系统集成</h3>
           <p>
-            连接飞书、ERP、表格和企业内部系统，减少重复录入、信息搬运、通知催办和人工核对。
+            把飞书、ERP、表格和企业内部系统连接起来，让信息和任务自动流转，少一些重复录入、复制粘贴和人工催办。
           </p>
           <p class="service-examples">
-            <strong>需求示例</strong>
+            <strong>常见需求</strong>
             数据同步、审批流转、自动通知、跨系统任务回写。
           </p>
         </article>
@@ -138,10 +138,10 @@ async function copyWechat() {
           </div>
           <h3>数据查询与分析工具</h3>
           <p>
-            把分散的数据整理成可追溯、可查询的业务信息，让团队及时掌握经营情况。
+            把分散的数据整理成清晰、可追溯的查询和看板，帮助团队更快找到需要的信息，少花时间反复对表和整理报表。
           </p>
           <p class="service-examples">
-            <strong>需求示例</strong>
+            <strong>常见需求</strong>
             业务数据查询、自动报表、指标看板、自然语言数据助手。
           </p>
         </article>
@@ -151,46 +151,46 @@ async function copyWechat() {
     <section class="listing-section" aria-labelledby="listing-title">
       <div class="listing-intro">
         <p class="eyebrow">
-          SCENARIO EXAMPLE / LISTING
+          A CLOSER LOOK · LISTING
         </p>
         <h2 id="listing-title">
-          例如：开发一套 Listing 文案生成工具
+          比如，做一套 Listing 文案生成工具
         </h2>
         <p>
-          跨境电商团队需要为大量 SKU 编写商品文案。运营要从产品资料中提取参数和卖点，再根据销售站点、语言和品牌要求撰写标题、五点描述与产品描述。工作重复，内容质量也容易因人而异。
+          运营每天要面对大量 SKU，商品资料可能散落在不同表格和系统里。写一条 Listing，往往要查参数、提炼卖点、整理关键词，再根据不同站点的语言和规则调整标题、五点描述和产品介绍。工作量不小，内容也容易因人而异。
         </p>
         <p>
-          这类需求适合做成一套内部工作台，而不是只生成几段文案。
+          可以把这些步骤放进一个工作台，让资料整理、文案生成、质量检查和人工审核连成一套顺手的流程。
         </p>
       </div>
 
       <div class="listing-workflow" aria-label="Listing 文案生成流程">
         <div class="workflow-step">
           <span class="step-number">01</span>
-          <h3>整理商品资料</h3>
-          <p>导入 SKU、产品参数、核心卖点、关键词和品牌规范。</p>
+          <h3>准备商品资料</h3>
+          <p>导入 SKU、产品参数、核心卖点、关键词和品牌要求。</p>
         </div>
         <div class="workflow-step">
           <span class="step-number">02</span>
-          <h3>生成 Listing</h3>
-          <p>按站点、语言和品牌风格生成标题、五点描述、产品描述及搜索词。</p>
+          <h3>按站点生成文案</h3>
+          <p>选择目标站点和语言，生成标题、五点描述、产品描述及搜索词。</p>
         </div>
         <div class="workflow-step">
           <span class="step-number">03</span>
           <h3>检查内容质量</h3>
-          <p>检查字符限制、参数一致性、关键词覆盖和不合规表达。</p>
+          <p>核对字符限制、参数一致性、关键词覆盖和不合规表达。</p>
         </div>
         <div class="workflow-step">
           <span class="step-number">04</span>
-          <h3>审核与交付</h3>
-          <p>运营在线修改、确认，再批量导出或对接现有系统。</p>
+          <h3>审核与导出</h3>
+          <p>运营可以直接修改和确认，再批量导出或同步到现有系统。</p>
         </div>
       </div>
 
       <div class="listing-preview">
         <div class="product-brief">
           <p class="paper-label">
-            输入资料示例
+            商品资料示例
           </p>
           <dl>
             <div>
@@ -219,7 +219,7 @@ async function copyWechat() {
         <div class="generated-copy">
           <div class="generated-topline">
             <p class="paper-label">
-              生成文案示例
+              Listing 文案片段
             </p>
             <span>AMAZON US</span>
           </div>
@@ -236,9 +236,49 @@ async function copyWechat() {
             Three Compartments for Easy Sorting — Keep pens, markers, sticky notes and other everyday essentials neatly arranged and within reach.
           </p>
           <p class="output-note">
-            以上为文案片段示意。正式内容会根据实际商品资料、关键词和平台要求生成，并保留运营审核环节。
+            这里只展示文案片段。实际生成时，会结合商品资料、关键词、品牌风格和平台要求，并由运营审核确认。
           </p>
         </div>
+      </div>
+    </section>
+
+    <section class="values-section" aria-labelledby="values-title">
+      <div class="values-heading">
+        <p class="eyebrow">
+          WHAT MATTERS TO ME
+        </p>
+        <h2 id="values-title">
+          我们的价值观
+        </h2>
+        <p>
+          做项目不只是把功能开发出来。我更在意问题有没有解决、交付是否可靠，以及每一次合作能不能带来真正的价值。
+        </p>
+      </div>
+
+      <div class="values-grid">
+        <article class="value-item">
+          <span class="value-number">01 / CUSTOMER FIRST</span>
+          <h3>客户第一，技术第二</h3>
+          <p>
+            先把客户真正想解决的问题弄清楚，再决定用什么技术。技术不是目的，能不能帮客户节省时间、减少差错、改善业务，才是衡量方案的标准。持续创造价值，合作才能走得长远。
+          </p>
+        </article>
+
+        <article class="value-item">
+          <span class="value-number">02 / QUALITY</span>
+          <h3>注重过程，注重结果，追求品质</h3>
+          <p>
+            从需求沟通、方案设计到开发交付，每个环节都认真对待。既关注最终结果，也在意过程是否清晰、产品是否好用、后续是否方便维护。希望交付的不只是能运行的功能，而是经得起日常使用的产品。
+          </p>
+        </article>
+
+        <article class="value-item">
+          <span class="value-number">03 / KEEP EVOLVING</span>
+          <h3>拥抱变化，创新发展</h3>
+          <p>
+            行业在变，技术在变，客户的需求也在变。保持敬畏和谦逊，愿意学习，也给尝试留出耐心和调整的空间。发现更好的方法，就及时改变，在实践中不断改进。
+          </p>
+        </article>
       </div>
     </section>
 
@@ -248,10 +288,10 @@ async function copyWechat() {
           LET'S TALK
         </p>
         <h2 id="contact-title">
-          有想解决的业务问题？
+          有想法，欢迎来聊聊
         </h2>
         <p>
-          可以把当前流程、遇到的困难，以及希望改善的结果告诉我。需求还不完整也没关系，我们可以先把问题说清楚，再判断适合的实现方式。
+          如果你正准备开发一套内部工具，想把 AI 接进现有流程，或只是发现某项工作总在重复处理，都可以先和我聊聊。把现在的做法、遇到的困难和期待的结果告诉我，我们可以一起看看从哪里开始更合适。
         </p>
       </div>
       <div class="wechat">
@@ -315,7 +355,7 @@ async function copyWechat() {
   color: var(--accent);
   font-size: .76rem;
   font-weight: 700;
-  letter-spacing: .08em;
+  letter-spacing: .04em;
 }
 
 .eyebrow > span {
@@ -347,7 +387,9 @@ h1 em {
 .service-card > p,
 .listing-intro > p,
 .workflow-step > p,
-.contact-copy > p:last-child {
+.contact-copy > p:last-child,
+.values-heading > p:last-child,
+.value-item > p {
   color: var(--muted);
   line-height: 1.85;
 }
@@ -456,22 +498,26 @@ blockquote {
 
 .service-section,
 .listing-section,
+.values-section,
 .contact {
   border-top: 1px solid var(--line);
 }
 
 .service-section,
-.listing-section {
+.listing-section,
+.values-section {
   padding: clamp(42px, 6vw, 68px) 0;
 }
 
-.section-heading {
-  max-width: 650px;
+.section-heading,
+.values-heading {
+  max-width: 680px;
   margin-bottom: 28px;
 }
 
 .section-heading h2,
 .listing-intro h2,
+.values-heading h2,
 .contact h2 {
   margin: 12px 0;
   font-size: clamp(1.8rem, 3.3vw, 2.55rem);
@@ -479,7 +525,8 @@ blockquote {
   letter-spacing: -.035em;
 }
 
-.section-heading > p:last-child {
+.section-heading > p:last-child,
+.values-heading > p:last-child {
   font-size: .98rem;
 }
 
@@ -661,6 +708,44 @@ blockquote {
   line-height: 1.7;
 }
 
+.values-heading {
+  margin-bottom: 30px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.value-item {
+  min-width: 0;
+  padding: 22px 24px 26px 0;
+}
+
+.value-item + .value-item {
+  padding-left: 24px;
+  border-left: 1px solid var(--line);
+}
+
+.value-number {
+  color: var(--accent);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+
+.value-item h3 {
+  margin: 16px 0 10px;
+  font-size: 1.08rem;
+  line-height: 1.5;
+}
+
+.value-item > p {
+  font-size: .88rem;
+}
+
 .contact {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(230px, .7fr);
@@ -723,6 +808,7 @@ blockquote {
   .intro,
   .service-grid,
   .listing-preview,
+  .values-grid,
   .contact {
     grid-template-columns: 1fr;
   }
@@ -739,6 +825,16 @@ blockquote {
   .listing-workflow {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     row-gap: 24px;
+  }
+
+  .value-item {
+    padding: 22px 0;
+  }
+
+  .value-item + .value-item {
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 
   .wechat {

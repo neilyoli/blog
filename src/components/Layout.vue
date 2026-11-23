@@ -38,7 +38,7 @@ onKeyStroke('Escape', (e) => {
     flex="~ col"
     min-h-full
     p="x-4 t-24 b-6"
-    text-c
+    text-c bg-c
   >
     <div flex-1 mb-6>
       <Navbar>

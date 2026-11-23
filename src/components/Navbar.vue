@@ -72,9 +72,9 @@ const { y: scroll } = useWindowScroll()
         <span lt-md:hidden :class="{ active: isActive('/posts') }">随笔</span>
       </router-link>
 
-      <router-link to="/photos" title="照片" nav-item>
+      <router-link to="/photos" title="摄影" nav-item>
         <div i-ri-image-fill md:hidden />
-        <span lt-md:hidden :class="{ active: isActive('/photos') }">照片</span>
+        <span lt-md:hidden :class="{ active: isActive('/photos') }">摄影</span>
       </router-link>
 
       <router-link to="/services" title="项目合作" aria-label="项目合作" nav-item>

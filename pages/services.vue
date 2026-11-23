@@ -3,7 +3,7 @@ const wechatId = 'Li-Yuan_Cheng'
 const copyFeedback = ref('')
 
 useHead({
-  title: '项目合作 · Neilyo',
+  title: '合作 · Neilyo',
   meta: [{
     name: 'description',
     content: 'AI 应用、软件开发与企业数字化项目合作。关注跨境电商等业务场景，提供企业工具、智能体、流程自动化和数据应用开发。',

@@ -1,9 +1,19 @@
+export interface ProjectFocusArea {
+  title: string
+  description: string
+  icon: string
+}
+
 export interface ProjectItem {
   name: string
+  subtitle: string
   desc: string
+  details?: string[]
+  focusAreas?: ProjectFocusArea[]
   icon: string
   tech: string[]
   status: string
+  featured?: boolean
   link?: string
   repo?: string
 }
@@ -11,8 +21,32 @@ export interface ProjectItem {
 export const selectedProjects: ProjectItem[] = [
   {
     name: 'AgentKit',
-    status: '私有项目',
-    desc: '一个用 Java 开发的 Agent 底座。我在这里尝试整理 Agent 的执行过程、工具调用和运行管理，让这些能力能在不同应用中复用。',
+    subtitle: 'My Long-term Exploration of Agent Engineering',
+    featured: true,
+    status: '持续探索 · 私有项目',
+    desc: '一个面向 Java 生态的 Agent 工程项目，围绕 Agent 执行、会话与任务管理、工具和 Skill 扩展，以及运行时治理持续演进。',
+    details: [
+      '从最初研究 ReAct Agent，到后来关注 Harness、Agent Runtime 和多智能体协作，我一直在尝试构建一套适合 Java 生态的 Agent 工程体系。',
+      'MagicListing 和 Meeting Agent 中积累的实践经验，也会成为 AgentKit 的一部分输入。不是简单搬运业务代码，而是把经过验证、具有通用价值的设计和能力抽象出来，逐步沉淀到工程底座中。',
+      '这是一个长期项目，很多设计还会在实践中继续验证和调整。',
+    ],
+    focusAreas: [
+      {
+        title: 'Runtime',
+        description: '执行流程与生命周期',
+        icon: 'i-carbon-flow',
+      },
+      {
+        title: 'Extensions',
+        description: 'Tools 与 Skills 扩展',
+        icon: 'i-carbon-application-web',
+      },
+      {
+        title: 'Governance',
+        description: '任务、状态与运行治理',
+        icon: 'i-carbon-security',
+      },
+    ],
     icon: 'i-carbon-bot',
     tech: [
       'i-logos-java',
@@ -23,8 +57,9 @@ export const selectedProjects: ProjectItem[] = [
   },
   {
     name: 'MagicListing',
-    status: '私有项目',
-    desc: '面向跨境电商运营的 Listing 创作工具，帮助生成商品文案，并根据不同平台的规则进行适配和检查。',
+    subtitle: 'AI-powered Listing Creation',
+    status: '持续迭代 · 私有项目',
+    desc: '面向跨境电商运营的 AI Listing 创作产品，围绕平台规则、品牌风格、内容生成与质量校验持续迭代。实践经验也会反过来影响 AgentKit 的设计。',
     icon: 'i-carbon-shopping-bag',
     tech: [
       'i-logos-java',
@@ -35,8 +70,9 @@ export const selectedProjects: ProjectItem[] = [
   },
   {
     name: 'Meeting Agent',
-    status: '公开插件',
-    desc: '把会议里确定的事情变成后续能跟进的任务：从纪要中找出行动项，确认负责人，再同步到飞书，方便持续查看进展。',
+    subtitle: 'From Meeting Notes to Follow-ups',
+    status: '持续迭代 · 公开插件',
+    desc: '围绕企业会议纪要和任务跟进展开，识别行动项、同步负责人和截止日期，并支持任务确认、进展更新与跨会议追踪。实践中积累的通用经验也会逐步沉淀到 AgentKit。',
     icon: 'i-carbon-calendar-check',
     link: 'https://github.com/neilyoli/agenteam/tree/main/agenteam-server/agenteam-plugin-meeting',
     repo: 'neilyoli/agenteam',

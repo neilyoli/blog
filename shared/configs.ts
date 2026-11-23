@@ -1,6 +1,6 @@
 export const hostname = 'https://blog.tomeet.cn'
 export const title = 'Neilyo | AI FDE · Full-stack Engineer'
-export const description = 'Neilyo 的个人主页，关注 AI 应用落地、业务流程梳理，以及 Java 全栈开发实践。'
+export const description = 'Neilyo 的个人空间，记录 Agent 工程、AI 应用、全栈开发实践，以及项目与生活中的一些片段。'
 export const author = 'Neilyo'
 
 export const themeLight = '#ffffff'

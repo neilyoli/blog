@@ -14,4 +14,6 @@ socials:
     link: https://space.bilibili.com/327872329
 ---
 
+<!-- @layout-full-width -->
+
 <HomePage :socials="frontmatter.socials" />

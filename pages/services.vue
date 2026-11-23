@@ -6,7 +6,7 @@ useHead({
   title: '项目合作 · Neilyo',
   meta: [{
     name: 'description',
-    content: '我接跨境电商 AI 工具和企业内部流程开发。了解 MagicListing、飞书会议待办的实践，以及如何和我开始一个项目。',
+    content: 'Neilyo 的 Agent 项目合作页。聊聊 MagicListing 的商品文案实践、AgentKit 的应用方向、飞书会议纪要跟进，以及企业内部数仓 MCP 查询服务。',
   }],
 })
 
@@ -29,10 +29,10 @@ async function copyWechat() {
           <span aria-hidden="true" /> 项目合作
         </p>
         <h1 id="services-title">
-          把重复的工作，<br><em>交给软件。</em>
+          我给业务团队<br><em>做 AI Agent。</em>
         </h1>
         <p class="intro-text">
-          我叫 Neilyo，在跨境电商做全栈开发，也接 AI 应用和业务系统的项目。运营上新品要翻好几张表，开完会还要逐个问进度，这些都是我愿意花时间解决的问题。
+          我叫 Neilyo，在跨境电商做全栈开发，也在做自己的 Java Agent 项目 AgentKit。写一版能上架的 Listing，把会上定的事跟到下周例会，让运营自己查到数仓里的数据，这几类项目我都愿意接。
         </p>
         <a class="contact-link" href="#contact">
           聊聊你的项目 <span class="i-ri-arrow-right-down-line" aria-hidden="true" />
@@ -63,25 +63,35 @@ async function copyWechat() {
 
     <section class="offers" aria-labelledby="offers-title">
       <h2 id="offers-title">
-        哪些项目可以找我
+        三个可以一起做的场景
       </h2>
       <div class="offer">
-        <h3>跨境电商的<br class="desktop-break">商品内容工具</h3>
+        <h3>从 SKU 资料<br class="desktop-break">生成商品 Listing</h3>
         <div>
-          <p>如果运营上架一个 SKU，要在商品表、品牌手册和平台后台之间来回切换，我可以把这几步接到一起。先取商品资料，按站点和品牌规则生成标题、卖点，再把需要核对的内容留给运营审核。</p>
-          <p>做 MagicListing 时，我最在意的是缺资料的商品。比如水杯的容量没填，草稿里就该把它标出来，让运营找产品同事核实。</p>
+          <p>拿亚马逊上的一款收纳架来说。运营选好 SKU 和目标站点，Agent 读取商品规格，按品牌要求起草标题、五点卖点和描述。资料里只写了“三层”，草稿就不能凭空多出“承重 30 公斤”。缺的参数留给运营核实。</p>
+          <p>这套做法来自我做的 MagicListing。我想在 AgentKit 里用同一款商品试写两个站点的 Listing。两个站点共用读取 SKU 资料的工具，各自的语言、尺寸单位和品牌写作要求放进对应的 Skill，最后由运营审稿。</p>
           <RouterLink class="case-link" to="/projects">
-            看 MagicListing 项目介绍 <span aria-hidden="true">→</span>
+            看 AgentKit 和 MagicListing 项目介绍 <span aria-hidden="true">→</span>
           </RouterLink>
         </div>
       </div>
       <div class="offer">
-        <h3>飞书与内部系统的<br class="desktop-break">流程开发</h3>
+        <h3>把会议纪要<br class="desktop-break">变成有人跟的待办</h3>
         <div>
-          <p>如果开完会有人抄纪要、有人填表、下周再开会还得翻聊天记录，我可以把纪要接进飞书，让负责人收到待办并确认，后续进展回到同一张表里。这是我做 Meeting Agent 时处理的场景。</p>
-          <p>如果你们已经有 Java 后台、审批流或数据接口，我会先看现有权限和接口能用到哪一步，再补上缺的环节。</p>
+          <p>会上说“售后整理退货原因，产品再改说明书”，其实有两件事要跟。我做的 Meeting Agent 从飞书纪要里提取待办，分别发给负责人确认。会上只提部门的，还得问一句具体谁来接。没定的截止日期也留待补充。</p>
+          <p>负责人确认后，任务和后续进展都记在飞书多维表格里。下次例会前，主持人可以直接看退货分析交了没有、说明书改到哪一步，也能回看当时是哪次会定下来的。</p>
           <RouterLink class="case-link" to="/posts/2026-08-13-会议助手智能体">
             读我的飞书接入笔记 <span aria-hidden="true">→</span>
+          </RouterLink>
+        </div>
+      </div>
+      <div class="offer">
+        <h3>给公司内部数仓<br class="desktop-break">搭建 MCP 查询服务</h3>
+        <div>
+          <p>“上周德国站的销售额比前一周少了多少？”回答这句话，先得弄清楚销售额按下单还是付款时间算、是否扣除退款、用什么币种。我会和业务同事找出日常对数用的那张报表，把指标口径和对应的数仓字段定下来。</p>
+          <p>然后把这项查询做成 Agent 能调用的只读 MCP 工具，按提问人的店铺权限取数。回答里列出两周的金额、差额和数据来源。第一版就拿这道题验收，看两个周期的数能否分别和原报表对上。</p>
+          <RouterLink class="case-link" to="/posts/2026-08-18-企业数据查询mcp">
+            读我的企业数据查询 MCP 设计笔记 <span aria-hidden="true">→</span>
           </RouterLink>
         </div>
       </div>
@@ -92,8 +102,8 @@ async function copyWechat() {
         <h2 id="contact" tabindex="-1">
           从一件具体的事聊起。
         </h2>
-        <p>加微信时可以提一句「博客合作」。挑一个最近遇到的例子，说说谁在做、卡在哪一步、你希望最后能看到什么结果。</p>
-        <p>我们可以先拿一份脱敏样本走一遍，定下第一版做什么、用什么结果验收，再谈工期和费用。</p>
+        <p>加微信时可以提一句「博客合作」。挑一个你手头的例子就好，一份商品资料、一段脱敏纪要，或者一个每周都得找人查数的问题。</p>
+        <p>我们先聊今天是谁在做、哪一步最费时间，再一起定第一版交什么、谁来验收，以及工期和费用。</p>
       </div>
       <div class="wechat">
         <p class="paper-label">

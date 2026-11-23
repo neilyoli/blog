@@ -62,19 +62,19 @@ const { y: scroll } = useWindowScroll()
       <span class="blink text-xl mt-1 lt-sm:hidden">_</span>
     </router-link>
     <nav flex space-x-4>
-      <router-link to="/projects" title="Projects" nav-item>
+      <router-link to="/projects" title="项目" nav-item>
         <div i-ri-lightbulb-line md:hidden />
-        <span lt-md:hidden :class="{ active: isActive('/projects') }">Projects</span>
+        <span lt-md:hidden :class="{ active: isActive('/projects') }">项目</span>
       </router-link>
 
-      <router-link to="/posts" title="Blog" nav-item>
+      <router-link to="/posts" title="随笔" nav-item>
         <div i-majesticons:paper-fold-text-line md:hidden />
-        <span lt-md:hidden :class="{ active: isActive('/posts') }">Blog</span>
+        <span lt-md:hidden :class="{ active: isActive('/posts') }">随笔</span>
       </router-link>
 
-      <router-link to="/photos" title="Photos" nav-item>
+      <router-link to="/photos" title="照片" nav-item>
         <div i-ri-image-fill md:hidden />
-        <span lt-md:hidden :class="{ active: isActive('/photos') }">Photos</span>
+        <span lt-md:hidden :class="{ active: isActive('/photos') }">照片</span>
       </router-link>
 
       <router-link to="/services" title="项目合作" aria-label="项目合作" nav-item>

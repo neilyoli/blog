@@ -84,7 +84,7 @@ async function copyWechat() {
 
     <section class="approach" aria-labelledby="approach-title">
       <h2 id="approach-title">
-        让运营用它值一次班
+        陪运营值一次班
       </h2>
       <div>
         <p>第一版能跑起来，我会请当天值班的运营挑一单自己来做，我坐在旁边看。如果为了找到产品同事确认过的尺寸，还得退出系统翻聊天记录，那这一步就得接着改。等我不在场，换班的人也能把事情办完，这一版才算交到了团队手里。</p>

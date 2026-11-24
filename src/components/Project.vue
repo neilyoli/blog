@@ -1,12 +1,10 @@
 <script setup lang="ts">
 import type { ProjectItem } from '../../shared'
 
-const { item, variant } = withDefaults(defineProps<{
+const { item, variant = 'default' } = defineProps<{
   item: ProjectItem
   variant?: 'default' | 'featured'
-}>(), {
-  variant: 'default',
-})
+}>()
 
 const star = ref<number | null>(null)
 
@@ -155,7 +153,7 @@ onMounted(async () => {
       </div>
       <span
         v-if="item.link"
-        class="i-ri-arrow-up-right-line mt-1 shrink-0 text-c-lighter transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+        class="i-ri-arrow-right-up-line mt-1 shrink-0 text-c-lighter transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
       />
     </div>
 

@@ -85,7 +85,7 @@ const currentTopics = [
             class="home-action-secondary"
           >
             GitHub
-            <span class="i-ri-arrow-up-right-line" />
+            <span class="i-ri-arrow-right-up-line" />
           </a>
         </div>
       </div>
@@ -170,7 +170,7 @@ const currentTopics = [
               <h3>{{ interest.title }}</h3>
               <p>{{ interest.description }}</p>
             </div>
-            <span class="i-ri-arrow-up-right-line home-interest-arrow" />
+            <span class="i-ri-arrow-right-up-line home-interest-arrow" />
           </article>
         </div>
       </div>
@@ -196,7 +196,7 @@ const currentTopics = [
         >
           <span :class="social.icon" />
           <span>{{ social.name }}</span>
-          <span class="i-ri-arrow-up-right-line home-social-arrow" />
+          <span class="i-ri-arrow-right-up-line home-social-arrow" />
         </a>
       </nav>
     </section>

@@ -130,7 +130,7 @@ const otherProjects = selectedProjects.filter(item => !item.featured)
           </div>
           <div class="home-project-note-title">
             <h3>{{ item.name }}</h3>
-            <span v-if="item.link" class="i-ri-arrow-up-right-line" />
+            <span v-if="item.link" class="i-ri-arrow-right-up-line" />
           </div>
           <p class="home-project-note-subtitle">{{ item.subtitle }}</p>
           <p class="home-project-note-desc">{{ item.desc }}</p>
